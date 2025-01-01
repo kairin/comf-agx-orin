@@ -14,6 +14,10 @@ Once an environment has been created, you may wish to activate it, e.g. by sourc
 ➜  apps source .ven1/bin/activate
 (.ven1) ➜  apps python3 -m pip install --upgrade pip
 
-and then, good idea to follow the installation instructions to get the the packages especially jtop.
 
+
+
+and then, good idea to follow the installation instructions to get the the packages especially jtop/JEP.
+https://developer.nvidia.com/embedded/community/jetson-projects/jetson_stats
 https://jetsonhacks.com/2023/02/07/jtop-the-ultimate-tool-for-monitoring-nvidia-jetson-devices/
+https://github.com/AastaNV/JEP
