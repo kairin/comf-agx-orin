@@ -1,0 +1,19 @@
+https://elinux.org/Jetson_Zoo
+
+good idea to read through first.
+
+1. to get tensorRT working, when creating the virtual environment use the following setting:
+
+➜  apps python3 -m venv --help
+
+  --system-site-packages
+                        Give the virtual environment access to the system site-packages dir.
+  
+Once an environment has been created, you may wish to activate it, e.g. by sourcing an activate script in its bin directory.
+➜  apps python3 -m venv .ven1 --system-site-packages
+➜  apps source .ven1/bin/activate
+(.ven1) ➜  apps python3 -m pip install --upgrade pip
+
+and then, good idea to follow the installation instructions to get the the packages especially jtop.
+
+https://jetsonhacks.com/2023/02/07/jtop-the-ultimate-tool-for-monitoring-nvidia-jetson-devices/
