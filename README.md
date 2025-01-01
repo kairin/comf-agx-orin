@@ -1,6 +1,6 @@
 <div align="center">
 
-# ComfyUI
+# ComfyUI + (NVIDIA AGX ORIN where i get 64GB of VRAM!!!! for cheap!!!)
 **The most powerful and modular diffusion model GUI and backend.**
 
 
