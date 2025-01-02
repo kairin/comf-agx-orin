@@ -33,4 +33,5 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib
 
 
 wait wait wait... can just download the whl file.
-https://developer.nvidia.com/tensorrt/download
+https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch
+https://developer.nvidia.com/tensorrt/download -- actual location 
