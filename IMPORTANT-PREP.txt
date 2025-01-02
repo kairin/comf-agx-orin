@@ -36,3 +36,10 @@ wait wait wait... can just download the whl file.
 https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch
 https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-tar
 https://developer.nvidia.com/tensorrt/download -- actual location 
+
+# version="10.7.0.23"
+# arch=aarch64
+# cuda="cuda-12.6"
+# tar -xzvf TensorRT-${version}.Linux.${arch}-gnu.${cuda}.tar.gz
+# and then set the PATH
+export LD_LIBRARY_PATH=/home/kkk/Downloads/TensorRT-10.7.0.23.l4t.aarch64-gnu.cuda-12.6/lib:$LD_LIBRARY_PATH
