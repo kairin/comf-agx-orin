@@ -21,3 +21,16 @@ and then, good idea to follow the installation instructions to get the the packa
 https://developer.nvidia.com/embedded/community/jetson-projects/jetson_stats
 https://jetsonhacks.com/2023/02/07/jtop-the-ultimate-tool-for-monitoring-nvidia-jetson-devices/
 https://github.com/AastaNV/JEP
+
+
+
+while installing some other custom_nodes, i encounter the following issue where  i also need to update the following file: File Name to Write: ~/.zshrc
+# update the following paths.
+export PATH=/usr/local/cuda/bin:$PATH
+export CUDA_HOME=/usr/local/cuda/bin
+export CUDA_PATH=/usr/local/cuda/bin 
+export LD_LIBRARY_PATH=/usr/local/cuda/lib
+
+
+wait wait wait... can just download the whl file.
+https://developer.nvidia.com/tensorrt/download
